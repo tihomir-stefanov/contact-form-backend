@@ -1,0 +1,8 @@
+index:
+    path: /
+    controller: App\Controller\IndexController::index
+
+contact_form:
+    path: /contact-us
+    controller: App\Controller\ContactFormController::submit
+    methods: POST
